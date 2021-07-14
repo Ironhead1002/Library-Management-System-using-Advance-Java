@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Request Book</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        
+    </head>
+    <body background="https://images.wallpaperscraft.com/image/books_library_shelves_138556_1920x1080.jpg">
+      <div class="container">
+    <div class="row">
+        <div class="col-sm-6 col-md-4 col-md-offset-4"><br><br><br>
+            <h1 class="text-center text-primary login-title">Request Book</h1>
+            <div class="account-wall">
+                
+                <form class="form-signin" action="Requestbook" method="post"><br>
+                    <input type="text" class="form-control" placeholder="Book Name" name="abname" required><br>
+                    <input type="text" class="form-control" placeholder="Author Name" name="aaname" required><br>
+                    <input type="text" class="form-control" placeholder="Book Edition" name="abe" required><br><br>
+                    <input class="btn btn-primary btn-lg btn-block" type="submit" value="Request" name="btn1">
+                    
+                </form>
+                    <form class="form-signin" action="Addbook" method="post"><br>
+                    <input class="btn btn-primary btn-lg btn-block" type="submit" value="Home" name="btn1">
+                </form>
+            </div>
+            
+        </div>
+    </div>
+</div>
+    </body>
+</html>
